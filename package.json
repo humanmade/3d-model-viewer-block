@@ -1,6 +1,6 @@
 {
   "name": "hm-model-viewer-3d",
-  "version": "1.0.0",
+  "version": "0.9.0-dev",
   "description": "Human Made WordPress plugin for embedding 3D models using model-viewer",
   "main": "build/index.js",
   "scripts": {
