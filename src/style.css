@@ -1,0 +1,51 @@
+/* Frontend styles for the Model Viewer 3D block */
+
+.wp-block-model-viewer-3d-model-viewer {
+    margin: 20px 0;
+}
+
+model-viewer {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    model-viewer {
+        height: 300px !important;
+    }
+}
+
+/* Loading state */
+model-viewer:not([loaded]) {
+    background: #f0f0f0;
+    position: relative;
+}
+
+model-viewer:not([loaded]):before {
+    content: "Loading 3D model...";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #666;
+    font-size: 14px;
+}
+
+/* Error state */
+model-viewer[error] {
+    background: #ffe6e6;
+    border: 1px solid #ff9999;
+}
+
+model-viewer[error]:after {
+    content: "Failed to load 3D model";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cc0000;
+    font-size: 14px;
+}

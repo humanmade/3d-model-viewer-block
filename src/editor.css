@@ -1,0 +1,57 @@
+/* Editor styles for the Model Viewer 3D block */
+
+.model-viewer-3d-block {
+    position: relative;
+    margin: 20px 0;
+}
+
+.model-viewer-container {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.model-viewer-placeholder {
+    background: #f9f9f9;
+    border: 2px dashed #ddd;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.model-viewer-placeholder p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Ensure model-viewer elements display properly in editor */
+model-viewer {
+    display: block;
+    width: 100%;
+    min-height: 300px;
+}
+
+/* Button styling for model selection */
+.model-viewer-3d-block .button {
+    background: #0073aa;
+    border-color: #0073aa;
+    color: white;
+}
+
+.model-viewer-3d-block .button:hover {
+    background: #005a87;
+    border-color: #005a87;
+}
+
+/* Inspector controls styling */
+.components-panel__body .model-viewer-controls {
+    margin-bottom: 16px;
+}
+
+.components-panel__body .model-viewer-controls label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
