@@ -1,9 +1,13 @@
 # HM Model Viewer 3D
 
-> **⚠️ AI-Generated Plugin Notice**  
+> **⚠️ AI-Generated Plugin Notice**
 > This entire WordPress plugin was created using AI assistance (GitHub Copilot). Every line of code, documentation, configuration, and build setup was generated through conversational AI prompting. The complete prompt history and development process are documented in [PROMPTS.md](PROMPTS.md) for transparency and educational purposes.
 
 A WordPress plugin that allows you to easily embed 3D models in your posts and pages using Google's model-viewer web component.
+
+## Demo
+
+<video src="https://joehoyle-captured.s3-eu-west-1.amazonaws.com/Screen-Recording-2025-07-22-09-18-23-jApuj3Cb7JWjMepZBAPlTwxGob1bIkCFWczMSTOolzLZgbMiCHvit1Khl9naESCNBPimOO7uIkyug1K70ymhwku3Wclo2yQSq5Fy.mp4" controls width="100%"></video>
 
 ## Features
 

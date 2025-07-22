@@ -1,17 +1,6 @@
 <?php
 /**
- * // Prevent direct access.
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
-
-// Define plugin constants.
-define( 'HM_MODEL_VIEWER_3D_VERSION', '0.9.0-dev' );
-define( 'HM_MODEL_VIEWER_3D_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'HM_MODEL_VIEWER_3D_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
-
-// Include configuration.
-require_once HM_MODEL_VIEWER_3D_PLUGIN_PATH . 'includes/config.php'; Human Made Model Viewer 3D
+ * Plugin Name: Human Made Model Viewer 3D
  * Description: Embed 3D models in WordPress posts using model-viewer with Gutenberg block support
  * Version: 0.9.0-dev
  * Author: Human Made
@@ -22,17 +11,17 @@ require_once HM_MODEL_VIEWER_3D_PLUGIN_PATH . 'includes/config.php'; Human Made 
  * Domain Path: /languages
  */
 
-// Prevent direct access
-if (!defined('ABSPATH')) {
-    exit;
+// Prevent direct access.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
-// Define plugin constants
+// Define plugin constants.
 define( 'HM_MODEL_VIEWER_3D_VERSION', '0.9.0-dev' );
-define('HM_MODEL_VIEWER_3D_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('HM_MODEL_VIEWER_3D_PLUGIN_PATH', plugin_dir_path(__FILE__));
+define( 'HM_MODEL_VIEWER_3D_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+define( 'HM_MODEL_VIEWER_3D_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 
-// Include configuration
+// Include configuration.
 require_once HM_MODEL_VIEWER_3D_PLUGIN_PATH . 'includes/config.php';
 
 /**
