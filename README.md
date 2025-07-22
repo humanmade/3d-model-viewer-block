@@ -5,9 +5,8 @@
 
 A WordPress plugin that allows you to easily embed 3D models in your posts and pages using Google's model-viewer web component.
 
-## Demo
+https://github.com/user-attachments/assets/5a5ce9dd-afbc-428f-bc80-281793ddbd7d
 
-<video src="https://joehoyle-captured.s3-eu-west-1.amazonaws.com/Screen-Recording-2025-07-22-09-18-23-jApuj3Cb7JWjMepZBAPlTwxGob1bIkCFWczMSTOolzLZgbMiCHvit1Khl9naESCNBPimOO7uIkyug1K70ymhwku3Wclo2yQSq5Fy.mp4" controls width="100%"></video>
 
 ## Features
 
